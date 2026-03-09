@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: #ffffff;
+  color: #111827;
+  padding-top: 64px; 
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #ffffff; 
+  border-bottom: 1px solid #e5e7eb; 
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ec4899; 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 48px;
+  height: 48px;
+  transition: all 0.3s ease;
+  /* padding: 8px 12px; */
+  border-radius: 999px;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  background: #f3f4f6;
+  transform: scale(1.05);
+}
+
+.nav-link--active {
+  background: #ec4899;
+  color: white;
+}

@@ -1,0 +1,49 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: #e5e7eb;
+}
+
+.message.me {
+  align-self: flex-end;
+  background: #ff4d6d;
+  color: white;
+}
+.dialog-input input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  font-size: 16px;
+  outline: none;
+  margin-left: 20px;
+}
+.dialog-input button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #ff4d6d;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 20px;
+}
+.dialog {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+}

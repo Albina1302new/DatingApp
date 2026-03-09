@@ -1,6 +1,6 @@
 import { renderHeader } from "./components/nav.js";
 import { hero } from "./components/hero.js";
-import { renderFavorites } from "./favorites/renderFavorites.js";
+import { renderFavorites } from "./components/favorites/renderFavorites.js";
 import { renderFakeMessages } from "./components/dialog/renderMessanges.js";
 import { renderJulia } from "./components/renderJulia.js";
 

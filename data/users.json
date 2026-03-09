@@ -10,7 +10,7 @@
     "children": "ingen",
     "pets": "ingen",
     "is_online": true,
-    "imageSrc": "images/girl-8.jpg"
+    "imageSrc": "./images/girl-8.jpg"
   },
   {
     "age": 28,
@@ -23,7 +23,7 @@
     "children": "har",
     "pets": "har",
     "is_online": true,
-    "imageSrc": "images/boy-1.jpg"
+    "imageSrc": "./images/boy-1.jpg"
   },
   {
     "age": 25,
@@ -36,7 +36,7 @@
     "children": "ingen",
     "pets": "ingen",
     "is_online": false,
-    "imageSrc": "images/girl-2.jpg"
+    "imageSrc": "./images/girl-2.jpg"
   },
   {
     "age": 32,
@@ -49,7 +49,7 @@
     "children": "har",
     "pets": "har",
     "is_online": true,
-    "imageSrc": "images/boy-2.jpg"
+    "imageSrc": "./images/boy-2.jpg"
   },
   {
     "age": 21,
@@ -62,7 +62,7 @@
     "children": "ingen",
     "pets": "ingen",
     "is_online": true,
-    "imageSrc": "images/girl-5.jpg"
+    "imageSrc": "./images/girl-5.jpg"
   },
   {
     "age": 29,
@@ -75,7 +75,7 @@
     "children": "ingen",
     "pets": "har",
     "is_online": true,
-    "imageSrc": "images/boy-3.jpg"
+    "imageSrc": "./images/boy-3.jpg"
   },
   {
     "age": 34,
@@ -88,7 +88,7 @@
     "children": "har",
     "pets": "ingen",
     "is_online": false,
-    "imageSrc": "images/girl-6.jpg"
+    "imageSrc": "./images/girl-6.jpg"
   },
   {
     "age": 26,
@@ -101,7 +101,7 @@
     "children": "ingen",
     "pets": "har",
     "is_online": true,
-    "imageSrc": "images/boy-4.jpg"
+    "imageSrc": "./images/boy-4.jpg"
   },
   {
     "age": 30,
@@ -114,7 +114,7 @@
     "children": "ingen",
     "pets": "ingen",
     "is_online": true,
-    "imageSrc": "images/girl-7.jpg"
+    "imageSrc": "./images/girl-7.jpg"
   },
   {
     "age": 27,
@@ -127,6 +127,6 @@
     "children": "ingen",
     "pets": "ingen",
     "is_online": true,
-    "imageSrc": "images/content.jpg"
+    "imageSrc": "./images/content.jpg"
   }
 ]

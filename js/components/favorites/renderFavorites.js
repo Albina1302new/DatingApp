@@ -1,8 +1,8 @@
 import { getAllFavorites, removeFromFav } from "./storeFavorites.js";
 
-const container = document.querySelector(".fav__container");
-
 export const renderFavorites = () => {
+  const container = document.querySelector(".fav__container");
+
   if (!container) return;
 
   const favorites = getAllFavorites();

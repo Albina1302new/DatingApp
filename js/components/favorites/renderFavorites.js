@@ -31,7 +31,7 @@ export const renderFavorites = () => {
     );
   });
 
-  const removeBtns = document.querySelectorAll(".removeFav");
+  const removeBtns = container.querySelectorAll(".removeFav");
 
   removeBtns.forEach((btn) => {
     btn.addEventListener("click", () => {

@@ -12,7 +12,11 @@ if (document.querySelector(".hero")) {
 if (document.querySelector(".profile-page")) {
   renderJulia();
 }
+const favContainer = document.querySelector(".fav__container");
 
+if (favContainer) {
+  renderFavorites();
+}
 if (document.querySelector(".fav__container")) {
   renderFavorites();
 }

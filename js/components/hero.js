@@ -121,7 +121,7 @@ export const hero = async () => {
       <div class="hero-header">
         <div class="profile-row">
           <div class="profile-avatar">
-            <img src="../../images/profile.jpg" alt="Julia">
+            <img src="images/profile.jpg" alt="Julia">
           </div>
           <div class="profile-text">
             <h3 class="profile-name">Julia K, 25</h3>
@@ -129,7 +129,7 @@ export const hero = async () => {
         </div>
         
         <div class="filter-trigger" id="filterToggle">
-          <img src="../../images/header.svg" alt="Filters" class="filter-icon">
+          <img src="images/header.svg" alt="Filters" class="filter-icon">
         </div>
       </div>
       

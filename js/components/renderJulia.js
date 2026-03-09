@@ -10,7 +10,7 @@ export const renderJulia = () => {
     children: "ingen",
     pets: "ingen",
     is_online: true,
-    imageSrc: "./images/profile.jpg",
+    imageSrc: "images/profile.jpg",
   };
 
   const container = document.querySelector(".profile-page"); // окрема секція
